@@ -1,0 +1,107 @@
+	<!-- 	<header>
+		<ul>
+			<li class="yo-ico menu">&#xe616;</li>
+	
+			<li class="ul_find">发现</li>
+			<li></li>			
+		</ul>
+	</header>
+	<nav>
+		<p>	
+			<input type="text" placeholder="请输入昵称">
+			<span></span>
+			<button>取消</button>
+		</p>		
+	</nav>
+	<section class="find_section">
+		<ul>
+			<li>
+				<img src="/football-app/images/Pikachu.jpg">
+			</li>
+			<li>
+				<h2>朴智星</h2>
+				<p>韩国占中国需要看见是是谁</p>
+			</li>
+			<li>
+				<button>关注</button>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<img src="/football-app/images/Pikachu.jpg">
+			</li>
+			<li>
+				<h2>朴智星</h2>
+				<p>韩国占中国需要看见是是谁</p>
+			</li>
+			<li>
+				<button>关注</button>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<img src="/football-app/images/Pikachu.jpg">
+			</li>
+			<li>
+				<h2>朴智星</h2>
+				<p>韩国占中国需要看见是是谁</p>
+			</li>
+			<li>
+				<button>关注</button>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<img src="/football-app/images/Pikachu.jpg">
+			</li>
+			<li>
+				<h2>朴智星</h2>
+				<p>韩国占中国需要看见是是谁</p>
+			</li>
+			<li>
+				<button>关注</button>
+			</li>
+		</ul>
+	</section> -->
+
+
+<!-- <div class="yo-list yo-list-inset findlist">
+	<label class="item item-input">
+        <input type="text" class="yo-input" placeholder="取消" />
+        <input type="text" class="yo-input" placeholder="确定" />
+    </label>
+    <label class="item item-input">
+        <input type="text" class="yo-input" placeholder="手机号" />
+    </label>
+    <label class="item item-input">
+        <input type="text" class="yo-input" placeholder="密码" />
+    </label>
+    <label class="item item-input">
+        <textarea class="yo-input" placeholder="昵称"></textarea>
+    </label>
+</div> -->
+
+
+<!-- <div class="m-search" spa-widget="scroll" data-scroll-id="fixedScroll">
+    <div>
+        <div class="m-search-img"></div>
+        <div class="m-search-menu"></div>
+        <div class="m-search-content"></div>
+    </div>
+</div> -->
+
+<div class="m-search" spa-widget="scroll" data-scroll-id="fixedScroll">
+	<div>
+		<div class="m-search-img"></div>
+		<div class="m-search-menu"></div>
+		<div class="m-search-content"></div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,274 @@
+@keyframes rota{
+	0%{
+		transform:rotate3d(0,0,1,0);
+	}
+
+	
+	100%{
+		transform:rotate3d(0,0,1,360deg);
+	}
+}	
+.m-wrapper{
+	
+	.m-home{
+		@include flexbox();
+		@include flex-direction(column);
+		@include flex(1); 
+		
+	    width:100%;
+	    height:100%;
+		header{
+			height:.44rem;
+			background:#0CC140;
+			>ul{
+				@include flexbox();
+				height:100%; 
+				width:100%;
+				position:relative;
+				background:#0CC140;
+				>li{
+					width:.44rem;
+					height:100%;				
+					color:#fff;
+					font-size:.2rem;
+					text-align:center;
+					line-height:.44rem;
+					//&.menu{
+						//position:absolute;
+						//top:.05rem;
+						//eft:.08rem;
+					//}
+					//&.erweima{
+						//position:absolute;
+						//top:.05rem;
+						//right:.08rem;
+					//}
+					&:nth-child(2){
+						@include flexbox();
+						@include flex(1);
+						@include justify-content(center);
+						@include align-items(center);
+						
+						ul{
+							width:1.18rem;
+							height:.25rem;
+							@include flexbox();
+							background:#abcdef;
+							color:rgba(255,255,255,.7);
+							background:rgba(100,217,133,.7);
+							font-size:.12rem;
+							text-align:center;
+							line-height:.25rem;
+							@include border-radius(.5rem);
+							overflow:hidden;
+							li{
+								width:.59rem;
+								height:100%;
+								&.active{
+									color:rgba(255,255,255,1);
+									background:rgba(100,217,133,1);
+								}
+
+							}
+						}
+					}
+				}
+			}
+		}
+		nav{
+			height:.35rem;
+			background:#fff;
+			>ul{
+				@include flexbox();
+				height:100%; 
+				width:100%;			
+				li{
+					@include flex(1);
+					height:100%;
+					line-height:.35rem;
+					text-align:center;
+					color:#d9d9d9;
+					@include box-sizing(border-box);
+					@include border(0 0 1px 0,red);
+					&.active{
+						color:#519765;
+						@include border(0 0 0 0,red);
+						border-bottom:2px solid #519765;
+					}
+				}
+			}
+		}
+		section{
+			@include flex(1);			
+			width:100%;
+			height:100%;
+			background:#fff;
+			@include flexbox();
+			//padding:.05rem 0 0 0;
+			@include flexbox();
+			@include flex-direction(column);
+			overflow:hidden;
+			#swiper-hot{				
+					@include flexbox();
+					width:100%;
+					height:100%;
+					position:relative;
+
+				#wrapper-hot{
+					@include flex(1);	
+					width:100%;	
+					position:absolute;
+					#slide-hot{
+						@include flexbox();
+						@include flex-direction(column);
+						.scroll{
+							
+							width:100%;				
+							//margin-top:0.05rem; 
+							 >div {
+				                    
+				                  padding-bottom:0.1rem;
+				                  >div.head {
+					                    text-align: center;
+					                    height: .35rem;
+					                    line-height: .35rem;
+					                    img {
+					                      width: .13rem;
+					                      height: .13rem;
+					                      margin-bottom: 0.02rem;
+					                      display: inline-block;
+					                      transform: rotate(180deg);
+					                      -webkit-transform: rotate(180deg);
+					                      transition: transform 150ms;
+					                      -webkit-transition: transform 150ms;
+					                    }
+				                  }
+				                  >div.foot {
+				                    text-align: center;
+				                    height: .35rem;
+				                    line-height: .35rem;
+					                    img {
+					                      width: .13rem;
+					                      height: .13rem;
+					                      margin-bottom: 0.04rem;
+					                      display: inline-block;
+					                      transition: transform 150ms;
+					                      -webkit-transition: transform 150ms;
+					                    }
+			                      }
+					              .up {
+					                    transform: rotate(360deg) !important;
+					                    -webkit-transform: rotate(360deg) !important;
+					              }
+					              .down {
+					                    transform: rotate(180deg) !important;
+					                    -webkit-transform: rotate(180deg) !important;
+					               } 
+
+					               ul{
+										width:100%;
+										@include flexbox();
+										
+										//margin-bottom:.05rem;
+										margin-top:.05rem;
+								
+										li{
+											
+											&:not(:nth-child(2)){
+												@include flex(1);
+												@include box-sizing(border-box);
+												@include border(1px,#ccc);
+											}
+											&:nth-child(2){
+												width:.05rem;
+											}
+											&.hide{
+												visibility:hidden;
+											}
+											img{
+												width:100%;
+												height:100%;
+											}
+											b{
+												display:block;
+												padding:.07rem .08rem; 
+												font-size:.14rem;
+												color:#303030;
+												@include box-sizing(border-box);
+												@include border(1px 0 0 0,#ccc);
+											}	
+									}  	
+			                  }
+							
+							}
+							
+						}
+
+					}	
+				}
+			}
+			
+			.ft-box{
+				>.ft-scroll{
+					padding:.08rem;			
+
+					ul{
+						@include flexbox();
+						
+						width:6rem;
+						@include box-sizing(border-box);
+						@include border();
+						li{
+							@include flex(1);
+							text-align:center;
+							padding:0.01rem;
+							@include border(0 1px 0 0);
+							@include box-sizing(border-box);
+						}
+					}
+				}
+			}
+
+		}
+		#swiper-home{
+			width:100%;
+			height:100%;
+			@include flexbox();
+			position:relative;
+
+		}
+		#wrapper-slide{
+			@include flex(1);	
+			width:100%;		
+			position:absolute;
+			#home-slide{
+				@include flexbox();
+				@include flex-direction(column);
+			}
+		}
+
+		.rotate{
+			height:100%;
+			@include flexbox();
+			@include flex-direction(column);
+			@include justify-content(center);
+			@include align-items(center);
+			ul{
+				li{
+					width:.4rem;
+					height:.1rem;
+					text-align:center;
+					font-size:.12rem;
+					&:nth-child(1){						
+						@include border(1px,#000);
+						margin-bottom:.3rem;
+						animation:rota 1s linear infinite;
+					}
+					
+				}
+			}
+
+		}
+		
+	}	
+}	

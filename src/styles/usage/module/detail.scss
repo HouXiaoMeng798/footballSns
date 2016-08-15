@@ -1,0 +1,42 @@
+.detail{
+	@include flexbox();
+	@include flex-direction(column);
+	header{
+		background:#0f0;
+		height:.44rem;
+		position:relative;
+		>ul{
+				@include flexbox();
+				height:100%; 
+				width:100%;
+				
+				background:#0CC140;
+				>li{
+					width:.44rem;
+					height:100%;				
+					color:#fff;
+					font-size:.18rem;
+					text-align:center;
+					line-height:.44rem;
+					&:nth-child(2){
+						@include flex(1);
+						font-size:.17rem;					
+					}
+				}
+			}
+		
+
+	}
+	section{
+		img{
+			width:100%;
+		}
+		article{
+			padding:0.06rem;
+		}
+
+		p{
+			line-height:1.5;
+		}
+	}
+}

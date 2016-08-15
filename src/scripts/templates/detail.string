@@ -1,0 +1,22 @@
+<div class="detail">
+		<header>
+			<ul>
+				<li action-type="goto.back">返回</li>
+
+				<li class="ul_find">{{title}}</li>
+				<li class="yo-ico">&#xf0039;</li>			
+			</ul>
+		</header>
+		<section ms-visible="!isShowLoading">
+			<p><img ms-src="imgsrc"></p>
+			<article>
+				{{description}}
+			</article>
+		</section>
+		<div class="yo-loading" ms-visible="isShowLoading">
+		    <div class="inner"><i class="yo-ico"></i></div>
+		</div>
+
+detail....
+
+</div>

@@ -1,0 +1,49 @@
+		<div class="yo-dialog yo-dialog-a">
+		    <header class="hd">
+		        <h2 class="title">标题</h2>
+		    </header>
+		    <div class="bd">
+		        <p>有title的dialog</p>
+		    </div>
+		    <footer class="ft">
+		        <button action-type="tap.register" class="yo-btn yo-btn-dialog yo-btn-l">点击注册 </button>
+		        <button action-type="tap.close" class="yo-btn yo-btn-dialog yo-btn-l">确定</button>
+		    </footer>
+       </div>
+
+
+		<!-- <header>
+			<ul>
+				<li class="yo-ico menu">&#xe616;</li>
+		
+				<li class="ul_find">个人中心</li>
+				<li></li>			
+			</ul>
+		</header>
+		
+		<section class="my_section">
+			<ul class="my_ul">
+				<li>
+					<img src="/football-app/images/Pikachu.jpg">
+				</li>
+				<li>
+					<h2>朴智星</h2>
+					<p>韩国占中国需要看见是是谁</p>
+				</li>
+				<li>
+					
+		
+				</li>
+			</ul>
+			<nav>
+				<ul class="ul_nav">
+					<li class="active">图片(1)</li>
+					<li>关注(1)</li>
+					<li>粉丝(0)</li>
+				</ul>
+			</nav>
+			<div class="img">
+				 <img src="/football-app/images/img1.jpg">
+			</div>
+		</section> -->
+		

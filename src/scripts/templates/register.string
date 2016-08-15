@@ -1,0 +1,15 @@
+ <div class="yo-list yo-list-inset findlist">
+	<label class="item item-input">
+        <input type="text" class="yo-input" placeholder="取消"  action-type="register.close"/>
+        <input type="text" class="yo-input" placeholder="确定"  action-type="register.close"/>
+    </label>
+    <label class="item item-input">
+        <input type="text" class="yo-input" placeholder="手机号" />
+    </label>
+    <label class="item item-input">
+        <input type="text" class="yo-input" placeholder="密码" />
+    </label>
+    <label class="item item-input">
+        <textarea class="yo-input" placeholder="昵称"></textarea>
+    </label>
+</div>

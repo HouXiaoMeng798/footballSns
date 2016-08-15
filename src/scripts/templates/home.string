@@ -1,0 +1,103 @@
+<div class="m-home">	
+		<header>
+			<ul>
+				<li class="yo-ico menu">&#xe616;</li>
+
+				<li>
+					<ul class="hot" id="title">
+						<li class="active" action-type="title.slide">热点</li>
+						<li action-type="title.slide">关注</li>
+					</ul>
+				</li>
+				<li class="yo-ico erweima">&#xf0039;</li>
+			</ul>
+		</header>
+
+		<div class="swiper-container" id="swiper-home">
+			  <div class="swiper-wrapper" id="wrapper-slide">
+				    <div class="swiper-slide" id="home-slide">
+				    		<nav>
+									<ul>
+										<li class="active" action-type="tap.slide">足球生活</li>
+										<li action-type="tap.slide">足球生活</li>
+										<li action-type="tap.slide">足球生活</li>
+									</ul>
+							</nav>
+
+							<section id="wrapper">
+									<div class="swiper-container" id="swiper-hot" >
+										  <div class="swiper-wrapper" id="wrapper-hot">
+										    <div class="swiper-slide" id="slide-hot">
+										    	<div class="scroll" id="scroller" spa-widget="scroll" data-scroll-id="homeListScroll">
+										    		<div class="scroll_box">
+									    			   <div class="head">
+									                            <img src="/football-app/images/arrow.png"/>
+									                            <span>下拉刷新...</span>
+									                    </div>
+										    			<ul ms-repeat-obj="livedata">
+															<li ms-attr-data-id="obj[0].id" action-type="goto.detail">
+																<img ms-src="obj[0].img">
+																<b ms-text="obj[0].title"></b>
+															</li>
+															<li></li>
+															<li ms-attr-data-id="obj[1].id" action-type="goto.detail" ms-class-hide="!obj[1]">
+																<img ms-src="obj[1].img">
+																<b ms-text="obj[1].title"></b>
+															</li>
+														
+														</ul>
+		
+								 						<div class="foot">
+								                            <img src="/football-app/images/arrow.png"/>
+								                            <span>上拉加载更多...</span>
+								                        </div>
+										    		</div>
+														
+													
+												
+												</div>
+										    </div>
+										    <div class="swiper-slide ft-box">
+												<div class="ft-scroll" spa-widget="scroll" data-scroll-id="livenavScroll">
+													<ul>
+														<li>足球</li>
+														<li>足球</li>
+														<li>足球</li>
+														<li>足球</li>
+														<li>足球</li>
+														<li>足球</li>
+														<li>足球</li>
+														<li>足球</li>
+														<li>足球</li>
+														<li>足球</li>
+														<li>足球</li>
+													</ul>
+												</div>
+										    	
+										    </div>
+										    <div class="swiper-slide">
+										    	3333
+										    </div>
+
+										  </div>
+									</div>
+									
+							</section>
+				    </div>
+				    <div class="swiper-slide">
+						关注。。。
+				    	<div class="rotate">
+				    		<ul>
+				    			<li></li>
+				    			<li>加载中</li>
+				    		</ul>
+								
+				    	</div>
+				    </div>
+		    
+			  </div>
+		</div>
+
+
+	
+</div>

@@ -1,0 +1,21 @@
+#swiper-container{
+	width:100%;
+	height:100%;
+	//background:#ccc;
+	img{
+		width:100%;
+		height:100%;
+	}
+	.swiper-slide:last-child{
+		p{
+			
+			width:0.9rem;
+			height:.2rem;
+			//background:#ff0;
+			position:absolute;
+			right:0.62rem;
+			bottom:0.55rem;
+			z-index:999999;
+		}
+	}
+}

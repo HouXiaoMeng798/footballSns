@@ -1,0 +1,49 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  
+  "data": [{
+    "id":"1",
+    "imgsrc": "/football-app/images/img1.jpg",
+    "title": "朴智星:韩国去式1",
+    "description":"樱桃殷桃樱桃摄氏度就是的是淡黄色的"
+  }, 
+  {
+    "id":"2",
+    "imgsrc": "/football-app/images/img2.jpg",
+    "title": "黄博文杜威微博表决心2",
+    "description":"樱桃殷桃樱桃摄氏度就是的是淡黄色的"
+  }, 
+  {
+    "id":"3",
+    "imgsrc": "/football-app/images/img3.jpg",
+    "title": "颜强：国足出线与定一切3",
+    "description":"樱桃殷桃樱桃摄氏度就是的是淡黄色的"
+  }, 
+  {
+    "id":"4",
+    "imgsrc": "/football-app/images/img4.jpg",
+    "title": "吴曦:渴望12强战做好自己4",
+    "description":"樱桃殷桃樱桃摄氏度就是的是淡黄色的"
+  }, 
+  {
+    "id":"5",
+    "imgsrc": "/football-app/images/img1.jpg",
+    "title": "全国瞩目！新闻强赛抽签结果",
+    "description":"樱桃殷桃樱桃摄氏度就是的是淡黄色的"
+  }, 
+  {
+    "id":"6",
+    "imgsrc": "/football-app/images/img2.jpg",
+    "title": "国足与对和佩兰成就者",
+    "description":"樱桃殷桃樱桃摄氏度就是的是淡黄色的"
+  }, 
+  {
+    "id":"7",
+    "imgsrc": "/football-app/images/img3.jpg",
+    "title": "韩国主帅伊朗时的负担",
+    "description":"樱桃殷桃樱桃摄氏度就是的是淡黄色的"
+  }]
+}
