@@ -19,7 +19,7 @@ require("./views/register");
 
 
 SPA.config({
-	indexView:"find"
+	indexView:"index"
 })
 
-console.log("find3333");
+console.log("index");
