@@ -21,6 +21,6 @@ require("./views/register");
 SPA.config({
 
 	indexView:"master"
-	indexView:"master"
+
 })
 
