@@ -19,7 +19,7 @@ require("./views/register");
 
 
 SPA.config({
-	indexView:"branch1"
+	indexView:"branch111"
 })
 
-console.log("branch1");
+console.log("branch111");
