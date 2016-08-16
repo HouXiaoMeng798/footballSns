@@ -19,7 +19,7 @@ require("./views/register");
 
 
 SPA.config({
-	indexView:"guide"
+	indexView:"branch1"
 })
 
-console.log("dffdf");
+console.log("branch1");
