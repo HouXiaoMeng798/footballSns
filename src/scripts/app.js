@@ -19,7 +19,14 @@ require("./views/register");
 
 
 SPA.config({
+<<<<<<< HEAD
 	indexView:"master"
 })
 
 
+=======
+	indexView:"branch1"
+})
+
+console.log("branch1");
+>>>>>>> 20160815-footballSns-bugfix
