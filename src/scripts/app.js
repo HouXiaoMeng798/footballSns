@@ -22,4 +22,4 @@ SPA.config({
 	indexView:"branch111"
 })
 
-console.log("branch111");
+console.log("branch2222");
