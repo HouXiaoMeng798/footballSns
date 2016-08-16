@@ -19,23 +19,9 @@ require("./views/register");
 
 
 SPA.config({
-<<<<<<< HEAD
+
 
 	indexView:"master"
 
 })
 
-<<<<<<< HEAD
-=======
-console.log("branch2222");
->>>>>>> 20160815-footballSns-bugfix
-=======
-	indexView:"find"
-})
-
-<<<<<<< HEAD
-console.log("find222");
->>>>>>> 20160815-footballSns-bugfix
-=======
-console.log("find222999999999");
->>>>>>> 20160815-footballSns-bugfix
