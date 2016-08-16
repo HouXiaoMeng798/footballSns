@@ -24,3 +24,7 @@ SPA.config({
 
 })
 
+<<<<<<< HEAD
+=======
+console.log("branch2222");
+>>>>>>> 20160815-footballSns-bugfix
