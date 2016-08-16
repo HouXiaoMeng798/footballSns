@@ -19,7 +19,7 @@ require("./views/register");
 
 
 SPA.config({
-	indexView:"guide"
+	indexView:"master"
 })
 
-console.log("dffdf");
+
