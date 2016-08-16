@@ -22,4 +22,4 @@ SPA.config({
 	indexView:"find"
 })
 
-console.log("find22");
+console.log("find3333");
